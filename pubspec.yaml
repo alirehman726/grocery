@@ -1,0 +1,148 @@
+name: main_grocery
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.0.0
+  cached_network_image: ^2.0.0
+  flutter_widget_from_html_core: ^0.5.0
+  carousel_slider: ^2.3.1
+  scrollable_positioned_list: ^0.1.8
+  flutter_dash: ^0.0.1
+  geolocator: ^5.3.1
+  geocoder: ^0.2.1
+  location: ^3.0.2
+  google_maps_flutter: ^0.5.29
+  shared_preferences: ^0.5.3+4
+  permission_handler: ^5.0.1+1
+  after_layout: ^1.0.7+2 
+  sqflite: any
+  path_provider: any
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/spalsh/logo.png
+    - assets/images/spalsh/splash_background.png
+    - assets/images/installation/installation_1.png
+    - assets/images/installation/installation_2.png
+    - assets/images/installation/installation_3.png
+    - assets/images/installation/installation_next.png
+    - assets/images/Login/background.png
+    - assets/images/back.png
+    - assets/images/full_background.png
+    - assets/images/Profile/edit.png
+    - assets/images/Profile/my_profile.png
+    - assets/images/Profile/profile_broder.png
+    - assets/images/Nav_Bar/home.png
+    - assets/images/Nav_Bar/category.png
+    - assets/images/Nav_Bar/cart.png
+    - assets/images/Nav_Bar/user.png
+    - assets/images/Menu/profile.png
+    - assets/images/Menu/wishlist.png
+    - assets/images/Menu/address.png
+    - assets/images/Menu/notification.png
+    - assets/images/Menu/rate.png
+    - assets/images/Menu/condition.png
+    - assets/images/Menu/help.png
+    - assets/images/AppBar/cart.png
+    - assets/images/Product/strawberry.png
+    - assets/images/Product/grapes.png
+    - assets/images/Product/bananas.png
+    - assets/images/Product/grid3.png
+    - assets/images/Product/grid2.png
+    - assets/images/ig_background.png
+    - assets/images/help/call.png
+    - assets/images/help/rocket.png
+    - assets/images/help/raise.png
+    - assets/images/category/carrot.png
+    - assets/images/category/bread.png
+    - assets/images/category/cherries.png
+    - assets/images/category/cheese.png
+    - assets/images/filter.png
+    - assets/images/card/ic_add_cart.png
+    - assets/images/card/ic_added_cart.png
+    - assets/images/card/ic_fav.png
+    - assets/images/card/ic_unfav.png
+    - assets/images/location.png
+    - assets/images/social/instagram.png
+    - assets/images/social/facebook.png
+    - assets/images/social/whatsapp.png
+    - assets/images/arrow-Next.png
+    - assets/images/rocket.png
+    - assets/images/final_order.png
+    - assets/images/My_Wishlist_1.png
+    - assets/images/track_order_1.png
+    - assets/images/track_order/track_order_1.png
+    - assets/images/track_order/track_order_2.png
+    - assets/images/track_order/track_order_3.png
+    - assets/images/track_order/track_order_4.png
+    - assets/images/track_order/track_order_5.png
+    - assets/images/track_order/track_order_reload.png
+ 
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+  - family: Montserrat
+    fonts:
+      - asset: assets/fonts/Montserrat-Black.ttf
+      - asset: assets/fonts/Montserrat-Medium.ttf
+      - asset: assets/fonts/Montserrat-ExtraLight.ttf
+      - asset: assets/fonts/Montserrat-Light.ttf
+      - asset: assets/fonts/Montserrat-Regular.ttf
+      - asset: assets/fonts/Montserrat-Thin.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
